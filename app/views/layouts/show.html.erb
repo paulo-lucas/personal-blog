@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= app_owner %> - <%= @article.tag.title %></title>
+    <title><%= @article.title %> - <%= app_owner %></title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="<%= format_desc @article.body %>">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 

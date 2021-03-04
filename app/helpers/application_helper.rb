@@ -1,6 +1,6 @@
 module ApplicationHelper
   def app_owner
-    "Paulo Lucas"
+    "Paulo Lucas Cerqueira"
   end
 
   def article_path(article)
